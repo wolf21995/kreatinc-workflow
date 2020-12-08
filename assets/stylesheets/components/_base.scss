@@ -1,0 +1,199 @@
+
+// MAIN START CONTAINER 
+.all-elements{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+// MAIN END CONTAINER 
+
+
+//OPTIN STYLES START HERE
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #eaeaea;
+    font-size: 11px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    &::before, &::after{
+        content: '';
+        flex: 1;
+        border-bottom: 1px solid #EAEAEA;
+    }
+    &::before{
+        margin-right: 10px;
+    }
+    &::after{
+        margin-left: 10px;
+    }
+}
+
+.btn-normal , .btn-facebook{
+
+    border-radius: 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 7px;
+    
+}
+
+.btn-normal{
+    background-color: #3454D1;    
+}
+
+.btn-facebook{
+    background-color: #1877F2; 
+}
+
+
+.optin-container{
+    position: absolute;
+    max-width: 430px;
+    right: 18vw;
+    top: 4vw;
+    padding: 37px;
+}
+
+.optin-form{
+    label{
+        font-weight: 600;
+    }
+}
+
+.title-optin-1{
+    font-weight: 700;
+}
+
+.lead{
+    font-size: 15px;
+}
+
+//OPTIN STYLES eND HERE
+
+
+//CONTAINER WITH BACKGROUND IMAGE START HERE
+
+.background-img{
+    background-image: url(../img/hero-new-construction.jpg);
+    height: 360px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.social-media{
+    position: absolute;
+}
+
+.social-container{
+    z-index: 2;
+    height: 56%;
+    width: 40px;
+    border: 1px solid #EAEAEA;
+    background-color: white;
+    margin-top: 80px;
+    display: grid;
+    .icon{
+        text-align: center;
+        img{
+            height: 20px;
+            width:  20px;
+            margin: 10px;
+        }
+    }
+}
+
+.bordered{
+    border-top: 1px solid #EAEAEA;
+    
+}    
+
+//CONTAINER WITH BACKGROUND IMAGE ENDS HERE
+
+
+//LAST CONTAINER WITH INFO START HERE
+
+.container-2{
+    background-color: rgb(0,41,93);
+    .title-2{
+        color: white;
+        margin-left: 8%;
+    }
+}
+
+.container-3{
+    background-color: white;
+    .title-3{
+        color: black;
+        margin-left: 8%;
+        margin-top: 100px;
+        h4{
+            font-weight: 650;
+        }
+    }
+}
+
+//LAST CONTAINER WITH INFO START HERE
+
+
+
+
+ 
+ @media screen and (max-width: 750px){
+    .optin-container{
+        max-width: 400px;
+    }
+ }
+
+
+ @media screen and (max-width: 620px){
+    .optin-container{
+        max-width: 330px;
+    }
+ }
+
+
+ @media screen and (max-width: 530px){
+    .optin-container{
+        max-width: 305px;
+    }
+ }
+
+
+ @media screen and (max-width: 530px){
+    .optin-container{
+        max-width: 305px;
+    }
+ }
+
+
+
+ @media screen and (max-width: 460px){
+    .optin-container{
+        max-width: 238px;
+    }
+ }
+
+ @media screen and (max-width: 900px){
+    .btn-facebook, .btn-normal {
+      font-size : 12px;
+    }
+ }
+
+ @media screen and (max-width: 530px){
+    .btn-facebook, .btn-normal {
+      font-size : 50%;
+    }
+ }
+
+ @media screen and (max-width: 370px){
+    .social-container {
+        margin-left: -64px;
+    }
+ }
+
