@@ -9535,7 +9535,7 @@ a.text-dark:hover, a.text-dark:focus {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  color: #eaeaea;
+  color: gray;
   font-size: 11px;
   font-weight: 400;
   margin-top: 20px;
