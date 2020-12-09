@@ -9510,6 +9510,23 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+.background-img {
+  background-image: url(../img/images/hero-new-construction.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 360px;
+}
+
+.optin-container {
+  top: 60px;
+  z-index: 1;
+}
+
+.container-2 {
+  background-color: #00295d;
+}
+
 .separator {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9518,7 +9535,11 @@ a.text-dark:hover, a.text-dark:focus {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  color: #EAEAEA;
+  color: #eaeaea;
+  font-size: 11px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .separator::before, .separator::after {
@@ -9538,54 +9559,102 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-normal, .btn-facebook {
-  width: 100%;
+  border-radius: 20px;
 }
 
-.optin-container {
+.btn-normal {
+  background-color: #3454D1;
+}
+
+.btn-facebook {
+  background-color: #1877F2;
+}
+
+.header-1 {
+  font-weight: 600;
+}
+
+.header-border {
+  display: inline-block;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+.header-border::before {
+  content: "";
   position: absolute;
-  width: 28vw;
-  height: 33vw;
-  right: 15vw;
-  top: 4vw;
+  width: 3%;
+  height: 1px;
+  bottom: 0;
+  left: 18px;
+  border-bottom: 3px solid #b8b8b8;
 }
 
-.background-img {
-  background-image: url(../img/hero-new-construction.jpg);
-  height: 360px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.header-border h3 {
+  font-weight: 700 !important;
 }
 
-.social-media {
-  position: absolute;
+.button-slide {
+  float: right;
 }
 
-.all-elements {
-  margin-left: 80px;
-  margin-right: 80px;
+.button-slide a:hover {
+  color: white !important;
 }
 
-.container-2 {
-  background-color: #00295d;
-}
-
-.container-2 .title-2 {
+.btn-slides-arrow {
+  border-radius: 0 !important;
   color: white;
-  margin-left: 200px;
+  background-color: #3454d1;
 }
 
-.container-3 {
-  background-color: white;
+.pagination_rounded {
+  display: inline-block;
+  margin-left: 0px;
+  border-radius: 35px;
+  width: 90px;
+  height: 34px;
+  line-height: 34px;
 }
 
-.container-3 .title-3 {
-  color: black;
-  margin-left: 200px;
-  margin-top: 100px;
+.pagination_rounded .active {
+  background: #3454d1;
+  color: #fff;
+  border: 1px solid #3454d1;
 }
 
-.container-3 .title-3 h4 {
-  font-weight: 650;
+.pagination_rounded ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pagination_rounded li:first-child {
+  margin-left: 0px;
+}
+
+.pagination_rounded ul li {
+  float: left;
+}
+
+.pagination_rounded ul li a:hover {
+  background: #3454d1;
+  color: #fff;
+  border: 1px solid #3454d1;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.pagination_rounded ul li a {
+  float: left;
+  color: #3454d1;
+  border-radius: 50%;
+  line-height: 30px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,14 +1,22 @@
+//CONTAINER WITH BACKGROUND IMAGE START HERE
 
-// MAIN START CONTAINER 
-.all-elements{
-    margin-left: 80px;
-    margin-right: 80px;
+.background-img{
+    background-image: url(../img/images/hero-new-construction.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 360px;	
 }
 
-// MAIN END CONTAINER 
+.optin-container{
+    top: 60px;
+    z-index: 1;
+}
 
-
-//OPTIN STYLES START HERE
+.container-2{
+    background-color: #00295d;
+    
+}
 
 .separator {
     display: flex;
@@ -33,167 +41,107 @@
 }
 
 .btn-normal , .btn-facebook{
-
+    
     border-radius: 20px;
-    color: white;
-    font-size: 14px;
-    font-weight: 600;
-    padding: 7px;
     
 }
 
 .btn-normal{
-    background-color: #3454D1;    
+    background-color: #3454D1;
 }
 
 .btn-facebook{
-    background-color: #1877F2; 
+    background-color: #1877F2;
+}
+
+.header-1{
+    font-weight: 600;
 }
 
 
-.optin-container{
-    position: absolute;
-    max-width: 430px;
-    right: 18vw;
-    top: 4vw;
-    padding: 37px;
-}
-
-.optin-form{
-    label{
-        font-weight: 600;
-    }
-}
-
-.title-optin-1{
-    font-weight: 700;
-}
-
-.lead{
-    font-size: 15px;
-}
-
-//OPTIN STYLES eND HERE
-
-
-//CONTAINER WITH BACKGROUND IMAGE START HERE
-
-.background-img{
-    background-image: url(../img/hero-new-construction.jpg);
-    height: 360px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.social-media{
-    position: absolute;
-}
-
-.social-container{
-    z-index: 2;
-    height: 56%;
-    width: 40px;
-    border: 1px solid #EAEAEA;
-    background-color: white;
-    margin-top: 80px;
-    display: grid;
-    .icon{
-        text-align: center;
-        img{
-            height: 20px;
-            width:  20px;
-            margin: 10px;
-        }
-    }
-}
-
-.bordered{
-    border-top: 1px solid #EAEAEA;
+.header-border{
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
     
-}    
-
-//CONTAINER WITH BACKGROUND IMAGE ENDS HERE
-
-
-//LAST CONTAINER WITH INFO START HERE
-
-.container-2{
-    background-color: rgb(0,41,93);
-    .title-2{
-        color: white;
-        margin-left: 8%;
+    &::before{
+        content: "";
+        position: absolute;
+        width: 3%;
+        height: 1px;
+        bottom: 0;
+        left: 18px;
+        border-bottom: 3px solid #b8b8b8;
+    }
+    h3{
+        font-weight: 700 !important;
     }
 }
 
-.container-3{
-    background-color: white;
-    .title-3{
-        color: black;
-        margin-left: 8%;
-        margin-top: 100px;
-        h4{
-            font-weight: 650;
-        }
+.button-slide{
+    float: right;
+    a:hover {
+        color: white !important;
+      }
+}
+
+.btn-slides-arrow{
+    border-radius: 0 !important;
+    color: white;
+    background-color: #3454d1;
+}
+
+.pagination_rounded{
+    display: inline-block;
+    margin-left: 0px;
+    border-radius: 35px;
+    width: 90px;
+    height: 34px;
+    line-height: 34px;
+    .active {
+        background: #3454d1;
+        color: #fff;
+        border: 1px solid #3454d1;
     }
 }
 
-//LAST CONTAINER WITH INFO START HERE
+.pagination_rounded ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.pagination_rounded li:first-child {
+    margin-left: 0px
+}
+
+.pagination_rounded ul li {
+    float: left;
+}
 
 
 
+.pagination_rounded ul li a:hover {
+    background: #3454d1;
+    color: #fff;
+    border: 1px solid #3454d1
+}
 
- 
- @media screen and (max-width: 750px){
-    .optin-container{
-        max-width: 400px;
-    }
- }
-
-
- @media screen and (max-width: 620px){
-    .optin-container{
-        max-width: 330px;
-    }
- }
-
-
- @media screen and (max-width: 530px){
-    .optin-container{
-        max-width: 305px;
-    }
- }
-
-
- @media screen and (max-width: 530px){
-    .optin-container{
-        max-width: 305px;
-    }
- }
+a:link {
+    text-decoration: none
+}
 
 
 
- @media screen and (max-width: 460px){
-    .optin-container{
-        max-width: 238px;
-    }
- }
-
- @media screen and (max-width: 900px){
-    .btn-facebook, .btn-normal {
-      font-size : 12px;
-    }
- }
-
- @media screen and (max-width: 530px){
-    .btn-facebook, .btn-normal {
-      font-size : 50%;
-    }
- }
-
- @media screen and (max-width: 370px){
-    .social-container {
-        margin-left: -64px;
-    }
- }
+.pagination_rounded ul li a {
+    float: left;
+    color: #3454d1;
+    border-radius: 50%;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
 

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <g id="icon-open-house-tools" transform="translate(-881 -810)">
+    <circle id="Ellipse_24" data-name="Ellipse 24" cx="22" cy="22" r="22" transform="translate(881 810)" fill="#3454d1"/>
+    <path id="door-open-solid" d="M19.5,14H17V3.546A1.525,1.525,0,0,0,15.5,2H12V4h3V16h4.5a.5.5,0,0,0,.5-.5v-1A.5.5,0,0,0,19.5,14ZM9.758.033l-6,1.554A1.03,1.03,0,0,0,3,2.592V14H.5a.5.5,0,0,0-.5.5v1a.5.5,0,0,0,.5.5H11V1.038A1.008,1.008,0,0,0,9.758.033ZM8.25,9c-.414,0-.75-.448-.75-1s.336-1,.75-1S9,7.449,9,8,8.664,9,8.25,9Z" transform="translate(893 821.999)" fill="#fff"/>
+  </g>
+</svg>

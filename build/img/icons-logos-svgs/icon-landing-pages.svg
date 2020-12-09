@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <g id="icon-landing-pages" transform="translate(-225 -810)">
+    <g id="Group_401" data-name="Group 401">
+      <circle id="Ellipse_22" data-name="Ellipse 22" cx="22" cy="22" r="22" transform="translate(225 810)" fill="#3454d1"/>
+      <path id="icon-browser" d="M16.571,32H1.714A1.715,1.715,0,0,0,0,33.714V46.286A1.715,1.715,0,0,0,1.714,48H16.571a1.715,1.715,0,0,0,1.714-1.714V33.714A1.715,1.715,0,0,0,16.571,32Zm-12,4.143a.43.43,0,0,1-.429.429H2.714a.43.43,0,0,1-.429-.429V34.714a.43.43,0,0,1,.429-.429H4.143a.43.43,0,0,1,.429.429Zm11.429,0a.43.43,0,0,1-.429.429H6.714a.43.43,0,0,1-.429-.429V34.714a.43.43,0,0,1,.429-.429h8.857a.43.43,0,0,1,.429.429Z" transform="translate(238 792)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

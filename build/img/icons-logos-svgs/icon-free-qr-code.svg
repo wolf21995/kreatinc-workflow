@@ -1,0 +1,6 @@
+<svg id="icon-free-qr-code" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <g id="Group_423" data-name="Group 423">
+    <circle id="Ellipse_27" data-name="Ellipse 27" cx="22" cy="22" r="22" fill="#3454d1"/>
+    <path id="qrcode-solid" d="M0,39.286H7.286V32H0Zm2.429-4.857H4.857v2.429H2.429ZM9.714,32v7.286H17V32Zm4.857,4.857H12.143V34.429h2.429ZM0,49H7.286V41.714H0Zm2.429-4.857H4.857v2.429H2.429Zm13.357-2.429H17v4.857H13.357V45.357H12.143V49H9.714V41.714h3.643v1.214h2.429Zm0,6.071H17V49H15.786Zm-2.429,0h1.214V49H13.357Z" transform="translate(14 -18)" fill="#fff"/>
+  </g>
+</svg>
