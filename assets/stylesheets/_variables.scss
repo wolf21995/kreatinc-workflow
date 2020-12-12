@@ -8,6 +8,12 @@
 // Color system
 //
 
+//REDA CUSTOMIZED COLORS
+
+
+
+//REDA CUSTOMIZED COLORS
+
 $white:    #fff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
@@ -70,9 +76,13 @@ $colors: map-merge(
   $colors
 );
 
-$primary:       $blue !default;
-$secondary:     $gray-600 !default;
-$success:       $green !default;
+
+$normal:     #3454D1; 
+$facebook:       #1877F2; 
+
+$primary:       #00295d; //$blue !default;
+$secondary: $gray-600 !default;
+$success: $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
@@ -90,7 +100,9 @@ $theme-colors: map-merge(
     "warning":    $warning,
     "danger":     $danger,
     "light":      $light,
-    "dark":       $dark
+    "dark":       $dark,
+    "normal":       $normal,
+    "facebook":       $facebook
   ),
   $theme-colors
 );

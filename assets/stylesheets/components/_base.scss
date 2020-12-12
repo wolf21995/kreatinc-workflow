@@ -5,17 +5,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 360px;	
+    height: 442px;
 }
+
+.social-container{
+    z-index: $zindex-fixed;
+}
+
+
 
 .optin-container{
-    top: 60px;
-    z-index: 1;
-}
-
-.container-2{
-    background-color: #00295d;
-    
+    z-index: $zindex-sticky;
 }
 
 .separator {
@@ -46,18 +46,6 @@
     
 }
 
-.btn-normal{
-    background-color: #3454D1;
-}
-
-.btn-facebook{
-    background-color: #1877F2;
-}
-
-.header-1{
-    font-weight: 600;
-}
-
 
 .header-border{
     display: inline-block;
@@ -67,7 +55,7 @@
     &::before{
         content: "";
         position: absolute;
-        width: 3%;
+        width: 2%;
         height: 1px;
         bottom: 0;
         left: 18px;
