@@ -6,3 +6,6 @@ psd/
 *.psd
 *.zip
 babel/
+build/example.html
+build/index.html
+*.html

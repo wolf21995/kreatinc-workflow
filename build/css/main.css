@@ -9829,7 +9829,7 @@ a.text-facebook:hover, a.text-facebook:focus {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 442px;
+  max-height: 442px;
 }
 
 .social-container {
@@ -9840,6 +9840,10 @@ a.text-facebook:hover, a.text-facebook:focus {
   z-index: 1020;
 }
 
+.col-md-5 .card .card-body {
+  padding: 1.5rem;
+}
+
 .separator {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9848,8 +9852,8 @@ a.text-facebook:hover, a.text-facebook:focus {
   -ms-flex-align: center;
   align-items: center;
   text-align: center;
-  color: gray;
-  font-size: 11px;
+  color: #6c757d;
+  font-size: 10px;
   font-weight: 400;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -9860,15 +9864,26 @@ a.text-facebook:hover, a.text-facebook:focus {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  border-bottom: 1px solid #EAEAEA;
+  border-bottom: 1px solid #e9ecef;
 }
 
 .separator::before {
-  margin-right: 10px;
+  margin-right: fontseperator;
 }
 
 .separator::after {
-  margin-left: 10px;
+  margin-left: fontseperator;
+}
+
+.carousel-inner > .carousel-item > img {
+  height: 250px;
+  width: 100%;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
 }
 
 .btn-normal, .btn-facebook {
@@ -9887,41 +9902,35 @@ a.text-facebook:hover, a.text-facebook:focus {
   width: 2%;
   height: 1px;
   bottom: 0;
-  left: 18px;
-  border-bottom: 3px solid #b8b8b8;
+  left: 5px;
+  border-bottom: 3px solid #adb5bd;
 }
 
 .header-border h3 {
-  font-weight: 700 !important;
-}
-
-.button-slide {
-  float: right;
+  font-weight: 700;
 }
 
 .button-slide a:hover {
-  color: white !important;
+  color: #fff;
 }
 
 .btn-slides-arrow {
   border-radius: 0 !important;
-  color: white;
-  background-color: #3454d1;
+  color: #fff;
+  background-color: #3454D1;
 }
 
 .pagination_rounded {
   display: inline-block;
   margin-left: 0px;
   border-radius: 35px;
-  width: 90px;
-  height: 34px;
-  line-height: 34px;
+  height: 35px;
 }
 
 .pagination_rounded .active {
-  background: #3454d1;
+  background: #3454D1;
   color: #fff;
-  border: 1px solid #3454d1;
+  border: 1px solid #3454D1;
 }
 
 .pagination_rounded ul {
@@ -9939,9 +9948,9 @@ a.text-facebook:hover, a.text-facebook:focus {
 }
 
 .pagination_rounded ul li a:hover {
-  background: #3454d1;
+  background: #3454D1;
   color: #fff;
-  border: 1px solid #3454d1;
+  border: 1px solid #3454D1;
 }
 
 a:link {
@@ -9950,11 +9959,17 @@ a:link {
 
 .pagination_rounded ul li a {
   float: left;
-  color: #3454d1;
+  color: #3454D1;
   border-radius: 50%;
   line-height: 30px;
   height: 30px;
   width: 30px;
   text-align: center;
   margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 767px) {
+  .background-img {
+    max-height: 100%;
+  }
 }

@@ -5,51 +5,74 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 442px;
+    max-height: $bgheight;
 }
 
 .social-container{
     z-index: $zindex-fixed;
 }
 
-
-
 .optin-container{
     z-index: $zindex-sticky;
 }
+
+
+.col-md-5{
+    .card{
+        .card-body{
+            padding: $custom-control-gutter; 
+        }
+    }
+}
+
+
+
 
 .separator {
     display: flex;
     align-items: center;
     text-align: center;
-    color: gray;
-    font-size: 11px;
-    font-weight: 400;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    color: $gray-600;
+    font-size: $fontseperator;
+    font-weight: $font-weight-normal;
+    margin-top: $carousel-control-icon-width;
+    margin-bottom: $carousel-control-icon-width;
     &::before, &::after{
         content: '';
         flex: 1;
-        border-bottom: 1px solid #EAEAEA;
+        border-bottom: $border-width solid $gray-200;
     }
     &::before{
-        margin-right: 10px;
+        margin-right: fontseperator;
     }
     &::after{
-        margin-left: 10px;
+        margin-left: fontseperator;
     }
+}
+
+
+.carousel-inner > .carousel-item > img {
+
+    height: $sliderheight;
+    width: $fullsize;
+}
+
+.carousel-indicators li {
+    width: $fontseperator;
+    height: $fontseperator;
+    border-radius: $fullsize;
 }
 
 .btn-normal , .btn-facebook{
     
-    border-radius: 20px;
+    border-radius: $carousel-control-icon-width;
     
 }
 
 
 .header-border{
     display: inline-block;
-    padding-bottom: 5px;
+    padding-bottom: $fivepix;
     position: relative;
     
     &::before{
@@ -58,49 +81,46 @@
         width: 2%;
         height: 1px;
         bottom: 0;
-        left: 18px;
-        border-bottom: 3px solid #b8b8b8;
+        left: $fivepix;
+        border-bottom: 3px $solid $gray-500;
     }
     h3{
-        font-weight: 700 !important;
+        font-weight: $font-weight-bold;
     }
 }
 
 .button-slide{
-    float: right;
     a:hover {
-        color: white !important;
+        color: $white;
       }
 }
 
 .btn-slides-arrow{
     border-radius: 0 !important;
-    color: white;
-    background-color: #3454d1;
+    color: $white;
+    background-color: $normal;
 }
 
 .pagination_rounded{
     display: inline-block;
-    margin-left: 0px;
-    border-radius: 35px;
-    width: 90px;
-    height: 34px;
-    line-height: 34px;
+    margin-left: $zeropix;
+    border-radius: $tfivepix;
+    height: $tfivepix;
     .active {
-        background: #3454d1;
-        color: #fff;
-        border: 1px solid #3454d1;
+        background: $normal;
+        color: $white;
+        border: 1px $solid $normal;
     }
 }
 
 .pagination_rounded ul {
-    margin: 0;
-    padding: 0;
+    margin: $zerovar;
+    padding: $zerovar;
     list-style: none
 }
 
 .pagination_rounded li:first-child {
-    margin-left: 0px
+    margin-left: $zeropix
 }
 
 .pagination_rounded ul li {
@@ -110,9 +130,9 @@
 
 
 .pagination_rounded ul li a:hover {
-    background: #3454d1;
+    background: $normal;
     color: #fff;
-    border: 1px solid #3454d1
+    border: 1px $solid $normal
 }
 
 a:link {
@@ -123,13 +143,23 @@ a:link {
 
 .pagination_rounded ul li a {
     float: left;
-    color: #3454d1;
-    border-radius: 50%;
-    line-height: 30px;
-    height: 30px;
-    width: 30px;
+    color: $normal;
+    border-radius: $custom-radio-indicator-border-radius;
+    line-height: $grid-gutter-width;
+    height: $grid-gutter-width;
+    width: $grid-gutter-width;
     text-align: center;
     margin-bottom: 40px;
     
+}
+
+//MOBILE STYLE START HERE 
+
+
+
+@media only screen and (max-width: 767px){
+    .background-img{
+        max-height: $fullsize;
+    }
 }
 
