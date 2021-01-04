@@ -9834,6 +9834,38 @@ a.text-facebook:hover, a.text-facebook:focus {
 
 .social-container {
   z-index: 1030;
+  background-color: transparent;
+  position: fixed;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.social-container li {
+  background-color: #fff;
+}
+
+.social-container li:hover {
+  -webkit-transform: translatex(10px);
+  -ms-transform: translatex(10px);
+  transform: translatex(10px);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  margin-left: -10px;
+  background-color: #fff;
 }
 
 .optin-container {
@@ -9962,7 +9994,6 @@ a:link {
   color: #3454D1;
   border-radius: 50%;
   line-height: 30px;
-  height: 30px;
   width: 30px;
   text-align: center;
   margin-bottom: 40px;

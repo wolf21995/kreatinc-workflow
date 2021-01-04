@@ -10,6 +10,26 @@
 
 .social-container{
     z-index: $zindex-fixed;
+    background-color: transparent;
+    position: fixed;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex; 
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+
+    li{
+        background-color: $body-bg;
+    }
+
+    li:hover{
+        transform: translatex(10px);
+        transition:0.3s; 
+        margin-left: -10px;
+        background-color: $body-bg;
+    }
 }
 
 .optin-container{
@@ -146,7 +166,6 @@ a:link {
     color: $normal;
     border-radius: $custom-radio-indicator-border-radius;
     line-height: $grid-gutter-width;
-    height: $grid-gutter-width;
     width: $grid-gutter-width;
     text-align: center;
     margin-bottom: 40px;
